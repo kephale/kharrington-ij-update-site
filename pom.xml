@@ -92,7 +92,7 @@
 		<cleargl.version>2.2.6</cleargl.version>
 		<kotlin.version>1.3.41</kotlin.version>
 		<lwjgl.version>3.2.1</lwjgl.version>
-		<imagej-updater.version>3360842</imagej-updater.version>
+		<imagej-updater.version>2a56698</imagej-updater.version>
 	</properties>
 
 	<repositories>
