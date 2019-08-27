@@ -76,7 +76,7 @@
 
 
 	<properties>
-		<main-class>sc.iview.kharrington.Main</main-class>
+		<main-class>com.kyleharrington.ij.Main</main-class>
 		<package-name>kharrington-ij-update-site</package-name>
 
 		<license.licenseName>bsd_2</license.licenseName>
