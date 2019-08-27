@@ -84,7 +84,7 @@
 		<license.projectName>Kyle Harrington's update site generator.</license.projectName>
 
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
-		<releaseProfiles>deploy-to-scijava</releaseProfiles>
+<!--		<releaseProfiles>deploy-to-scijava</releaseProfiles>-->
 
 		<cx3d.version>89a7f09</cx3d.version>
 		<sciview.version>46d5906</sciview.version>
