@@ -85,6 +85,7 @@
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 		<releaseProfiles>deploy-to-scijava</releaseProfiles>
 
+		<cx3d.version>89a7f09</cx3d.version>
 		<scenery.version>3888cef</scenery.version>
 		<cleargl.version>2.2.6</cleargl.version>
 		<kotlin.version>1.3.41</kotlin.version>
@@ -106,6 +107,7 @@
 	  <dependency>
 	    <groupId>com.github.morphonets</groupId>
 	    <artifactId>cx3d</artifactId>
+	    <version>${cx3d.version}</version>
 	  </dependency>
 
 	        <!-- SciJava dependencies -->
