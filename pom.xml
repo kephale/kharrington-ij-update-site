@@ -60,24 +60,24 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/scenerygraphics/sciview</connection>
-		<developerConnection>scm:git:git@github.com:scenerygraphics/sciview</developerConnection>
-		<tag>sciview-0.2.0-beta-1</tag>
-		<url>https://github.com/scenerygraphics/sciview</url>
+		<connection>scm:git:git://github.com/kephale/kharrington-ij-update-site</connection>
+		<developerConnection>scm:git:git@github.com:kephale/kharrington-ij-update-site</developerConnection>
+		<tag>kharrington-ij-update-site-0.0.1</tag>
+		<url>https://github.com/kephale/kharrington-ij-update-site</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/scenerygraphics/sciview/issues</url>
+		<url>https://github.com/kephale/kharrington-ij-update-site/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>Travis CI</system>
-		<url>https://travis-ci.org/scenerygraphics/sciview</url>
+		<url>https://travis-ci.org/kephale/kharrington-ij-update-site</url>
 	</ciManagement>
 
 
 	<properties>
-		<main-class>sc.iview.Main</main-class>
-		<package-name>sciview</package-name>
+		<main-class>sc.iview.kharrington.Main</main-class>
+		<package-name>kharrington-ij-update-site</package-name>
 
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>Kyle Harrington.</license.copyrightOwners>
