@@ -113,6 +113,12 @@
 	    <version>${cx3d.version}</version>
 	  </dependency>
 
+		<dependency>
+			<groupId>com.github.kephale</groupId>
+			<artifactId>imagej-updater</artifactId>
+			<version>${imagej-updater.version}</version>
+		</dependency>
+
 	        <!-- SciJava dependencies -->
 		<dependency>
 			<groupId>org.scijava</groupId>
