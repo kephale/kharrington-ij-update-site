@@ -118,6 +118,13 @@
 			<artifactId>imagej-updater</artifactId>
 			<version>${imagej-updater.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-updater</artifactId>
+			<version>${imagej-updater.version}</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/empty.jar</systemPath>
+		</dependency>
 
 	        <!-- SciJava dependencies -->
 		<dependency>
