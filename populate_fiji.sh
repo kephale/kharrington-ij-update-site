@@ -155,4 +155,4 @@ do
   esac
 done
 
-
+ls $FijiDirectory/jars
