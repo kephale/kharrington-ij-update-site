@@ -95,7 +95,7 @@
 <!--		<custom-imagej-updater.version>a580040</custom-imagej-updater.version>-->
 		<snt.version>fa4d7a3</snt.version>
         <scijava-common.version>2.79.0</scijava-common.version>
-		<mosaic.version>8e3b6cc</mosaic.version>
+		<mosaic.version>0a87c34</mosaic.version>
 	</properties>
 
 	<repositories>
