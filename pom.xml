@@ -105,10 +105,13 @@
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
-
 		<repository>
 			<id>scijava.public</id>
 			<url>https://maven.scijava.org/content/groups/public</url>
+		</repository>
+		<repository>
+		  <id>clojars.org</id>
+		  <url>https://repo.clojars.org</url>
 		</repository>
 	</repositories>
 
