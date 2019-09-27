@@ -117,6 +117,7 @@
 
 	<dependencies>
 
+
 <!--		<dependency>-->
 <!--			<groupId>fun.imagej</groupId>-->
 <!--			<artifactId>fun.imagej</artifactId>-->
@@ -262,6 +263,12 @@
 			<artifactId>imagej-ui-swing</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+			<exclusions>
+				<exclusion>
+					<groupId>imagej-updater</groupId>
+					<artifactId>net.imagej</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
