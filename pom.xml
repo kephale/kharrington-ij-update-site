@@ -97,7 +97,7 @@
         <scijava-common.version>2.79.0</scijava-common.version>
 		<mosaic.version>a87328be</mosaic.version>
 		<heart-crop.version>b95d1a9</heart-crop.version>
-		<funimagej.version>2ea55c3</funimagej.version>
+		<funimagej.version>d515399</funimagej.version>
 	</properties>
 
 	<repositories>
@@ -117,35 +117,17 @@
 
 	<dependencies>
 
-		<dependency>
-			<groupId>fun.imagej</groupId>
-			<artifactId>fun.imagej</artifactId>
-			<version>${funimagej.version}</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>fun.imagej</groupId>-->
+<!--			<artifactId>fun.imagej</artifactId>-->
+<!--			<version>${funimagej.version}</version>-->
+<!--		</dependency>-->
 
 <!--		<dependency>-->
 <!--			<groupId>com.capsidaho</groupId>-->
 <!--			<artifactId>heart-crop</artifactId>-->
 <!--			<version>${heart-crop.version}</version>-->
 <!--		</dependency>-->
-
-		<dependency>
-			<groupId>com.github.kephale</groupId>
-			<artifactId>MosaicSuite</artifactId>
-			<version>${mosaic.version}</version>
-		</dependency>
-
-	  <dependency>
-	    <groupId>com.github.morphonets</groupId>
-	    <artifactId>cx3d</artifactId>
-	    <version>${cx3d.version}</version>
-	  </dependency>
-
-		<dependency>
-			<groupId>com.github.fiji</groupId>
-			<artifactId>Simple_Neurite_Tracer</artifactId>
-			<version>${snt.version}</version>
-		</dependency>
 
 <!--		<dependency>-->
 <!--			<groupId>com.github.kephale</groupId>-->
@@ -226,6 +208,25 @@
 			<artifactId>jogl-all</artifactId>
 			<version>${jogl.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>com.github.kephale</groupId>
+			<artifactId>MosaicSuite</artifactId>
+			<version>${mosaic.version}</version>
+		</dependency>
+
+	  <dependency>
+	    <groupId>com.github.morphonets</groupId>
+	    <artifactId>cx3d</artifactId>
+	    <version>${cx3d.version}</version>
+	  </dependency>
+
+		<dependency>
+			<groupId>com.github.fiji</groupId>
+			<artifactId>Simple_Neurite_Tracer</artifactId>
+			<version>${snt.version}</version>
+		</dependency>
+
 
 		<!-- Math dependencies -->
 		<dependency>
