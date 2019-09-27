@@ -136,13 +136,13 @@
 			<version>${custom-imagej-updater.version}</version>
 		</dependency>
 
-        <!--		<dependency>-->
-<!--			<groupId>net.imagej</groupId>-->
-<!--			<artifactId>imagej-updater</artifactId>-->
-<!--			<version>${imagej-updater.version}</version>-->
-<!--			<scope>system</scope>-->
-<!--			<systemPath>${project.basedir}/empty.jar</systemPath>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-updater</artifactId>
+			<version>${imagej-updater.version}</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/empty.jar</systemPath>
+		</dependency>
 
 	        <!-- SciJava dependencies -->
 		<dependency>
@@ -221,12 +221,12 @@
 	    <groupId>com.github.morphonets</groupId>
 	    <artifactId>cx3d</artifactId>
 	    <version>${cx3d.version}</version>
-		  <exclusions>
-				<exclusion>
-					<groupId>imagej-updater</groupId>
-					<artifactId>net.imagej</artifactId>
-				</exclusion>
-			</exclusions>
+<!--		  <exclusions>-->
+<!--				<exclusion>-->
+<!--					<groupId>imagej-updater</groupId>-->
+<!--					<artifactId>net.imagej</artifactId>-->
+<!--				</exclusion>-->
+<!--			</exclusions>-->
 	  </dependency>
 
 		<dependency>
@@ -269,12 +269,12 @@
 			<artifactId>imagej-ui-swing</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
-			<exclusions>
-				<exclusion>
-					<groupId>imagej-updater</groupId>
-					<artifactId>net.imagej</artifactId>
-				</exclusion>
-			</exclusions>
+<!--			<exclusions>-->
+<!--				<exclusion>-->
+<!--					<groupId>imagej-updater</groupId>-->
+<!--					<artifactId>net.imagej</artifactId>-->
+<!--				</exclusion>-->
+<!--			</exclusions>-->
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
