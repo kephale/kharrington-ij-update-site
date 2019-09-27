@@ -79,6 +79,8 @@
 		<main-class>com.kyleharrington.ij.Main</main-class>
 		<package-name>com.kyleharrington</package-name>
 
+		<enforcer.skip>true</enforcer.skip>
+
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>Kyle Harrington.</license.copyrightOwners>
 		<license.projectName>Kyle Harrington's update site generator.</license.projectName>
