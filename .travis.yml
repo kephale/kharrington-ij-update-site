@@ -7,9 +7,9 @@ branches:
 install: true
 script:
 - ".travis/build.sh"
-cache:
-  directories:
-  - "~/.m2/repository"
+#cache:
+#  directories:
+#  - "~/.m2/repository"
 env:
   matrix:
     secure: nNb46x6bBP4IFsP/FHCKAA3wN5vtP6v/sRniLWF+iU/2LuTE38VTp2VjfSlAkhJvQvJJpmfpAan16tCZLYZTNfwiSyAhBLXVUnfhRU7FQQPMPeFMxyr6Odf9GTWnrbZXwlNWFTj6ToFvLVsLndJswf71bxSnsxzDF7N5ytXtyVh5/0tnOI5wZj3JOpyTtN5m5Cd573RoMBgYuLWhwa1IfcUyGQhm6PzO0qWMZC+yIWm4+5E4ilwhKC1CHmE7E4p06A7brvPwt0ViB0QflosMRSHXQUejf3yeYbkNGjihynl2pGfEcROjPzTp0ntboyzbpRPsANb2JUuAhqg4H/wy33Ilse80Ud6amddfXnEbv8cg0ZK57hxPIDXec3aFX9AI6rNznBxbYnyD77hwcC947IQqesKVunjnj93xaLHOr4j0NcagQNv5+2sWRukPfc4ETiD5fioG84gfC/2B26j+JFIdr+E/j3l5SY/hDVcyTMvweOI0qaA+0eud3mRE+11hp3ISgSqOFnd4kkfSNRFzxCi3OIhS+Ehw3qafJa3+qkkrsew3MD1oIqesfcb+L+Y1eQbPwZiDL0FnTOy+JdYAtZicU/EzmK8R1tvNZsQul5V8eMh7msFzRA2YEOnWMRmM5jRu0yAEH3FztRR2skJhkzMnVzeKvTsjT9LpCA+hD4c=
