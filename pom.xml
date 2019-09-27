@@ -98,7 +98,7 @@
 		<mosaic.version>a87328be</mosaic.version>
 		<heart-crop.version>b95d1a9</heart-crop.version>
 		<funimagej.version>d515399</funimagej.version>
-		<imagej-launcher.version>5.0.2</imagej-launcher.version>
+<!--		<imagej-launcher.version>5.0.2</imagej-launcher.version>-->
 	</properties>
 
 	<repositories>
@@ -131,11 +131,11 @@
 <!--			<version>${heart-crop.version}</version>-->
 <!--		</dependency>-->
 
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>imagej-launcher</artifactId>
-			<version>${imagej-launcher.version}</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>net.imagej</groupId>-->
+<!--			<artifactId>imagej-launcher</artifactId>-->
+<!--			<version>${imagej-launcher.version}</version>-->
+<!--		</dependency>-->
 
 		<dependency>
 			<groupId>com.github.kephale</groupId>
