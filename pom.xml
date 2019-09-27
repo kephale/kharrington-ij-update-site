@@ -103,12 +103,12 @@
 
 	<repositories>
 		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-		<repository>
 			<id>scijava.public</id>
 			<url>https://maven.scijava.org/content/groups/public</url>
+		</repository>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
 		</repository>
 		<repository>
 		  <id>clojars.org</id>
@@ -313,6 +313,42 @@
 					<skip>true</skip>
 				</configuration>
 			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>3.0.0-M2</version>
+				<executions>
+				  <execution>
+					<id>enforce-versions</id>
+					<goals>
+					  <goal>enforce</goal>
+					</goals>
+					<configuration>
+						<skip>true</skip>
+						<rules>
+						<bannedPlugins>
+						  <!-- will only display a warning but does not fail the build. -->
+						  <level>WARN</level>
+						  <excludes>
+							<exclude>org.apache.maven.plugins:maven-verifier-plugin</exclude>
+						  </excludes>
+						  <message>Please consider using the maven-invoker-plugin (http://maven.apache.org/plugins/maven-invoker-plugin/)!</message>
+						</bannedPlugins>
+						<requireMavenVersion>
+						  <version>2.0.6</version>
+						</requireMavenVersion>
+						<requireJavaVersion>
+						  <version>1.5</version>
+						</requireJavaVersion>
+						<requireOS>
+						  <family>unix</family>
+						</requireOS>
+					  </rules>
+					</configuration>
+				  </execution>
+				</executions>
+			  </plugin>
 		</plugins>
 	</build>
 </project>
