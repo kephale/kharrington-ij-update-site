@@ -98,7 +98,7 @@
 		<snt.version>ae80358</snt.version>
         <scijava-common.version>2.79.0</scijava-common.version>
 		<mosaic.version>a87328be</mosaic.version>
-		<heart-crop.version>b95d1a9</heart-crop.version>
+		<heart-crop.version>a2e0439</heart-crop.version>
 		<funimagej.version>d515399</funimagej.version>
 <!--		<imagej-launcher.version>5.0.2</imagej-launcher.version>-->
 	</properties>
@@ -127,11 +127,11 @@
 <!--			<version>${funimagej.version}</version>-->
 <!--		</dependency>-->
 
-<!--		<dependency>-->
-<!--			<groupId>com.capsidaho</groupId>-->
-<!--			<artifactId>heart-crop</artifactId>-->
-<!--			<version>${heart-crop.version}</version>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>com.capsidaho</groupId>
+			<artifactId>heart-crop</artifactId>
+			<version>${heart-crop.version}</version>
+		</dependency>
 
 <!--		<dependency>-->
 <!--			<groupId>net.imagej</groupId>-->
