@@ -120,6 +120,8 @@ chmod +x $FijiDirectory/ImageJ-win32
 wget "https://maven.scijava.org/service/local/repositories/releases/content/net/imagej/imagej-launcher/5.0.2/imagej-launcher-5.0.2-win64.exe" -O $FijiDirectory/ImageJ-win64
 chmod +x $FijiDirectory/ImageJ-win64
 
+ls $FijiDirectory
+
 # -- Get the list of native libraries --
 
 # [NB] dependency:list emits G:A:P:C:V but dependency:copy needs G:A:V:P:C.
