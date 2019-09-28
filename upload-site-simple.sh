@@ -36,4 +36,4 @@ password=$WIKI_UPLOAD_PASS
 ./$launcher --update upload-complete-site --force --force-shadow $update_site
 
 # Upload other launchers
-./$launcher --update upload --update-site  $update_site --force-shadow --forget-missing-dependencies "Contents/MacOS/ImageJ-macosx" "ImageJ-win32" "ImageJ-win64"
+./$launcher --update upload --update-site  $update_site --force-shadow --forget-missing-dependencies "Contents/MacOS/ImageJ-macosx" "ImageJ-win32.exe" "ImageJ-win64.exe"

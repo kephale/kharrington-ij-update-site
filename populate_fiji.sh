@@ -111,14 +111,16 @@ installWithGroupId "$ffmpegGAV:jar:macosx-x86_64" $FijiDirectory/jars/macosx
 
 # -- Get the latest imagej-launcher --
 
+echo
+echo "--> Getting launchers for all platforms"
 wget "https://maven.scijava.org/service/local/repositories/releases/content/net/imagej/imagej-launcher/5.0.2/imagej-launcher-5.0.2-linux64.exe" -O $FijiDirectory/ImageJ-linux64
 chmod +x $FijiDirectory/ImageJ-linux64
 wget "https://maven.scijava.org/service/local/repositories/releases/content/net/imagej/imagej-launcher/5.0.2/imagej-launcher-5.0.2-macosx.exe" -O $FijiDirectory/Contents/MacOS/ImageJ-macosx
 chmod +x $FijiDirectory/Contents/MacOS/ImageJ-macosx
-wget "https://maven.scijava.org/service/local/repositories/releases/content/net/imagej/imagej-launcher/5.0.2/imagej-launcher-5.0.2-win32.exe" -O $FijiDirectory/ImageJ-win32
-chmod +x $FijiDirectory/ImageJ-win32
-wget "https://maven.scijava.org/service/local/repositories/releases/content/net/imagej/imagej-launcher/5.0.2/imagej-launcher-5.0.2-win64.exe" -O $FijiDirectory/ImageJ-win64
-chmod +x $FijiDirectory/ImageJ-win64
+wget "https://maven.scijava.org/service/local/repositories/releases/content/net/imagej/imagej-launcher/5.0.2/imagej-launcher-5.0.2-win32.exe" -O $FijiDirectory/ImageJ-win32.exe
+chmod +x $FijiDirectory/ImageJ-win32.exe
+wget "https://maven.scijava.org/service/local/repositories/releases/content/net/imagej/imagej-launcher/5.0.2/imagej-launcher-5.0.2-win64.exe" -O $FijiDirectory/ImageJ-win64.exe
+chmod +x $FijiDirectory/ImageJ-win64.exe
 
 ls $FijiDirectory
 
