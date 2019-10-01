@@ -88,14 +88,14 @@
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 <!--		<releaseProfiles>deploy-to-scijava</releaseProfiles>-->
 
-		<cx3d.version>de68843</cx3d.version>
+		<cx3d.version>a6b9d72</cx3d.version>
 		<sciview.version>fe74d7d</sciview.version>
 		<scenery.version>3888cef</scenery.version>
 		<cleargl.version>2.2.6</cleargl.version>
 		<kotlin.version>1.3.41</kotlin.version>
 		<lwjgl.version>3.2.1</lwjgl.version>
 		<custom-imagej-updater.version>a580040</custom-imagej-updater.version>
-		<snt.version>ae80358</snt.version>
+		<snt.version>986e120</snt.version>
         <scijava-common.version>2.79.0</scijava-common.version>
 		<mosaic.version>a87328be</mosaic.version>
 		<heart-crop.version>a2e0439</heart-crop.version>
