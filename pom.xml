@@ -100,7 +100,7 @@
 		<mosaic.version>a87328be</mosaic.version>
 		<heart-crop.version>a2e0439</heart-crop.version>
 		<funimagej.version>d515399</funimagej.version>
-<!--		<imagej-launcher.version>5.0.2</imagej-launcher.version>-->
+		<imagej-launcher.version>5.0.2</imagej-launcher.version>
 		<mastodon.version>0a96636</mastodon.version>
 	</properties>
 
@@ -122,11 +122,11 @@
 	<dependencies>
 
 
-<!--		<dependency>-->
-<!--			<groupId>fun.imagej</groupId>-->
-<!--			<artifactId>fun.imagej</artifactId>-->
-<!--			<version>${funimagej.version}</version>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>fun.imagej</groupId>
+			<artifactId>fun.imagej</artifactId>
+			<version>${funimagej.version}</version>
+		</dependency>
 
 		<dependency>
 			<groupId>com.github.fiji</groupId>
@@ -140,11 +140,11 @@
 			<version>${heart-crop.version}</version>
 		</dependency>
 
-<!--		<dependency>-->
-<!--			<groupId>net.imagej</groupId>-->
-<!--			<artifactId>imagej-launcher</artifactId>-->
-<!--			<version>${imagej-launcher.version}</version>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-launcher</artifactId>
+			<version>${imagej-launcher.version}</version>
+		</dependency>
 
 		<dependency>
 			<groupId>com.github.kephale</groupId>
