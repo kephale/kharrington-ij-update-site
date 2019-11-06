@@ -89,13 +89,13 @@
 <!--		<releaseProfiles>deploy-to-scijava</releaseProfiles>-->
 
 		<cx3d.version>a6b9d72</cx3d.version>
-		<sciview.version>0af7438</sciview.version>
-		<scenery.version>ea457cd</scenery.version>
+		<sciview.version>93c80c3</sciview.version>
+		<scenery.version>2e9e808</scenery.version>
 		<cleargl.version>2.2.6</cleargl.version>
 		<kotlin.version>1.3.41</kotlin.version>
 		<lwjgl.version>3.2.1</lwjgl.version>
 		<custom-imagej-updater.version>a580040</custom-imagej-updater.version>
-		<snt.version>986e120</snt.version>
+		<snt.version>d3eec3b</snt.version>
         <scijava-common.version>2.79.0</scijava-common.version>
 		<mosaic.version>a87328be</mosaic.version>
 		<heart-crop.version>a2e0439</heart-crop.version>
