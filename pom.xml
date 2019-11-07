@@ -122,11 +122,11 @@
 	<dependencies>
 
 
-		<dependency>
-			<groupId>fun.imagej</groupId>
-			<artifactId>fun.imagej</artifactId>
-			<version>${funimagej.version}</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>fun.imagej</groupId>-->
+<!--			<artifactId>fun.imagej</artifactId>-->
+<!--			<version>${funimagej.version}</version>-->
+<!--		</dependency>-->
 
 		<dependency>
 			<groupId>com.github.fiji</groupId>
