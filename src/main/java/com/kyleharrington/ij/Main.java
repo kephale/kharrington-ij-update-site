@@ -7,23 +7,20 @@ import org.scijava.log.LogService;
 import org.scijava.plugin.Menu;
 import org.scijava.plugin.Parameter;
 import org.scijava.plugin.Plugin;
-import org.scijava.util.ColorRGB;
-import sc.iview.SciView;
-import sc.iview.vector.ClearGLVector3;
-import sc.iview.vector.Vector3;
 
 import static sc.iview.commands.MenuWeights.EDIT;
-import static sc.iview.commands.MenuWeights.EDIT_ADD_SPHERE;
 
-@Plugin(type = Command.class, menuRoot = "Plugins", //
-        menu = { @Menu(label = "Kharrington", weight = EDIT) })
+@Plugin(type = Command.class, menuRoot = "Help", //
+        menu = { @Menu(label = "About Kharrington update site", weight = EDIT) })
 public class Main implements Command {
 
     @Parameter
     private LogService logService;
 
     @Parameter(type = ItemIO.OUTPUT)
-    private String infoString = "Kharrington IJ update site requires: SciView, SNT";
+    private String infoString = "Kharrington Fiji update site\n" +
+            "The site includes bleeding edge versions of SciView, scenery, SNT, Cx3D, and other tools." +
+            "The common theme of all these tools are that Kyle Harrington decided to put them all into the same update site.";
 
     @Override
     public void run() {
