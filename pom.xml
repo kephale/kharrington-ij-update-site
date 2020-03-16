@@ -88,17 +88,19 @@
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 <!--		<releaseProfiles>deploy-to-scijava</releaseProfiles>-->
 
+		<bigdataviewer-vistools.version>1.0.0-beta-18</bigdataviewer-vistools.version>
+
 		<cx3d.version>608209f</cx3d.version>
-		<sciview.version>064d0ec</sciview.version>
-		<scenery.version>7d3b58a</scenery.version>
+		<sciview.version>8900176</sciview.version>
+		<scenery.version>c7bcf7a</scenery.version>
 		<cleargl.version>2.2.10</cleargl.version>
 		<kotlin.version>1.3.61</kotlin.version>
 		<lwjgl.version>3.2.3</lwjgl.version>
 
-		<snt.version>7d1e02f</snt.version>
+		<snt.version>a9366e2</snt.version>
         <scijava-common.version>2.79.0</scijava-common.version>
 		<mosaic.version>a87328be</mosaic.version>
-		<heart-crop.version>f072525</heart-crop.version>
+		<heart-crop.version>b91a1e8</heart-crop.version>
 
 		<funimagej.version>d515399</funimagej.version>
 		<imagej-launcher.version>5.0.2</imagej-launcher.version>
