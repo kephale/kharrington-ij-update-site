@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>27.0.1</version>
+		<version>28.0.0</version>
 		<relativePath />
 	</parent>
 
@@ -88,24 +88,23 @@
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 <!--		<releaseProfiles>deploy-to-scijava</releaseProfiles>-->
 
-		<bigdataviewer-vistools.version>1.0.0-beta-18</bigdataviewer-vistools.version>
+		<bigdataviewer-vistools.version>1.0.0-beta-20</bigdataviewer-vistools.version>
 
 		<cx3d.version>608209f</cx3d.version>
-		<sciview.version>8900176</sciview.version>
-		<scenery.version>c7bcf7a</scenery.version>
+		<sciview.version>c078ace</sciview.version>
+		<scenery.version>6a994af</scenery.version>
 		<cleargl.version>2.2.10</cleargl.version>
-		<kotlin.version>1.3.61</kotlin.version>
+		<kotlin.version>1.4-M1</kotlin.version>
+		<kotlinx-coroutines-core.version>1.3.5-1.4-M1</kotlinx-coroutines-core.version>
 		<lwjgl.version>3.2.3</lwjgl.version>
+		<joml.version>1.9.22</joml.version>
 
 		<snt.version>a9366e2</snt.version>
-        <scijava-common.version>2.79.0</scijava-common.version>
 		<mosaic.version>a87328be</mosaic.version>
-		<heart-crop.version>b91a1e8</heart-crop.version>
+		<heart-crop.version>4642ce1</heart-crop.version>
 
 		<funimagej.version>d515399</funimagej.version>
-		<imagej-launcher.version>5.0.2</imagej-launcher.version>
 		<mastodon.version>0a96636</mastodon.version>
-		<imagej-updater.version>49b1ac9</imagej-updater.version>
 	</properties>
 
 	<repositories>
