@@ -93,10 +93,10 @@
 		<sciview.version>f9f2f45</sciview.version>
 		<scenery.version>6a994af</scenery.version>
 
-<!--		<cx3d.version>5f80c5d</cx3d.version>-->
-<!--		<snt.version>407ceea</snt.version>-->
-<!--		<mosaic.version>a87328be</mosaic.version>-->
-		<heart-crop.version>7a35d19</heart-crop.version>
+		<cx3d.version>5f80c5d</cx3d.version>
+		<snt.version>407ceea</snt.version>
+		<mosaic.version>a87328be</mosaic.version>
+		<heart-crop.version>ce3e2d3</heart-crop.version>
 
 <!--		<mastodon.version>0a96636</mastodon.version>-->
 
@@ -138,6 +138,11 @@
 <!--			<version>${mastodon.version}</version>-->
 <!--		</dependency>-->
 
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>visad</artifactId>
+			<version>2.0.0-scijava-1</version>
+		</dependency>
 		<dependency>
 			<groupId>com.capsidaho</groupId>
 			<artifactId>heart-crop</artifactId>
@@ -223,29 +228,29 @@
 			<version>${jogl.version}</version>
 		</dependency>
 
-<!--		<dependency>-->
-<!--			<groupId>com.github.kephale</groupId>-->
-<!--			<artifactId>MosaicSuite</artifactId>-->
-<!--			<version>${mosaic.version}</version>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>com.github.kephale</groupId>
+			<artifactId>MosaicSuite</artifactId>
+			<version>${mosaic.version}</version>
+		</dependency>
 
-<!--	  <dependency>-->
-<!--	    <groupId>org.morphonets</groupId>-->
-<!--	    <artifactId>cx3d</artifactId>-->
-<!--	    <version>${cx3d.version}</version>-->
-<!--&lt;!&ndash;		  <exclusions>&ndash;&gt;-->
-<!--&lt;!&ndash;				<exclusion>&ndash;&gt;-->
-<!--&lt;!&ndash;					<groupId>imagej-updater</groupId>&ndash;&gt;-->
-<!--&lt;!&ndash;					<artifactId>net.imagej</artifactId>&ndash;&gt;-->
-<!--&lt;!&ndash;				</exclusion>&ndash;&gt;-->
-<!--&lt;!&ndash;			</exclusions>&ndash;&gt;-->
-<!--	  </dependency>-->
+	  <dependency>
+	    <groupId>org.morphonets</groupId>
+	    <artifactId>cx3d</artifactId>
+	    <version>${cx3d.version}</version>
+<!--		  <exclusions>-->
+<!--				<exclusion>-->
+<!--					<groupId>imagej-updater</groupId>-->
+<!--					<artifactId>net.imagej</artifactId>-->
+<!--				</exclusion>-->
+<!--			</exclusions>-->
+	  </dependency>
 
-<!--		<dependency>-->
-<!--			<groupId>org.morphonets</groupId>-->
-<!--			<artifactId>SNT</artifactId>-->
-<!--			<version>${snt.version}</version>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>org.morphonets</groupId>
+			<artifactId>SNT</artifactId>
+			<version>${snt.version}</version>
+		</dependency>
 
 
 		<!-- Math dependencies -->
