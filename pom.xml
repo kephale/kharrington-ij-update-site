@@ -106,6 +106,7 @@
 		<lwjgl.version>3.2.3</lwjgl.version>
 		<joml.version>1.9.22</joml.version>
 
+		<scijava-maven-plugin.version>1.1.0</scijava-maven-plugin.version>
 	</properties>
 
 	<repositories>
