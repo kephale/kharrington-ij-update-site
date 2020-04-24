@@ -223,29 +223,29 @@
 			<version>${jogl.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.github.kephale</groupId>
-			<artifactId>MosaicSuite</artifactId>
-			<version>${mosaic.version}</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.github.kephale</groupId>-->
+<!--			<artifactId>MosaicSuite</artifactId>-->
+<!--			<version>${mosaic.version}</version>-->
+<!--		</dependency>-->
 
-	  <dependency>
-	    <groupId>org.morphonets</groupId>
-	    <artifactId>cx3d</artifactId>
-	    <version>${cx3d.version}</version>
-<!--		  <exclusions>-->
-<!--				<exclusion>-->
-<!--					<groupId>imagej-updater</groupId>-->
-<!--					<artifactId>net.imagej</artifactId>-->
-<!--				</exclusion>-->
-<!--			</exclusions>-->
-	  </dependency>
+<!--	  <dependency>-->
+<!--	    <groupId>org.morphonets</groupId>-->
+<!--	    <artifactId>cx3d</artifactId>-->
+<!--	    <version>${cx3d.version}</version>-->
+<!--&lt;!&ndash;		  <exclusions>&ndash;&gt;-->
+<!--&lt;!&ndash;				<exclusion>&ndash;&gt;-->
+<!--&lt;!&ndash;					<groupId>imagej-updater</groupId>&ndash;&gt;-->
+<!--&lt;!&ndash;					<artifactId>net.imagej</artifactId>&ndash;&gt;-->
+<!--&lt;!&ndash;				</exclusion>&ndash;&gt;-->
+<!--&lt;!&ndash;			</exclusions>&ndash;&gt;-->
+<!--	  </dependency>-->
 
-		<dependency>
-			<groupId>org.morphonets</groupId>
-			<artifactId>SNT</artifactId>
-			<version>${snt.version}</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.morphonets</groupId>-->
+<!--			<artifactId>SNT</artifactId>-->
+<!--			<version>${snt.version}</version>-->
+<!--		</dependency>-->
 
 
 		<!-- Math dependencies -->
